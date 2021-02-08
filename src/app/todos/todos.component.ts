@@ -8,6 +8,7 @@ import { Todo } from "../models/Todo";
 })
 export class TodosComponent implements OnInit {
   todos: Todo[];
+  panelOpenState = false;
 
   inputTodo: string = "";
 
